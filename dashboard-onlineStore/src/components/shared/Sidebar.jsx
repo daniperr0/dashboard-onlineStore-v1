@@ -26,10 +26,10 @@ const Sidebar = (props) => {
               <IoStorefront className="text-3xl" />
             </h1>
           </li>
-          <li className="bg-[#262837] p-3 rounded-tl-lg rounded-bl-xl">
+          <li className="hover:bg-[#262837] p-3 rounded-tl-lg rounded-bl-xl group transition-colors">
             <a
               href="#"
-              className="bg-sky-400 p-4 flex justify-center rounded-xl text-white "
+              className="group-hover:bg-sky-400 p-4 flex justify-center rounded-xl text-sky-400 group-hover:text-white transition-colors "
             >
               <RiHome2Line className="text-2xl" />
             </a>
