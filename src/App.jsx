@@ -60,48 +60,48 @@ function App() {
           {/*content */}
           <div className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
             {/*Cards */}
-            <Cards img="comida.png" 
+            <Cards img="fruit salad.png" 
             description="Spicy Seasoned seafood nodless" 
             price="1.40" 
             inventory="30"
             />
-            <Cards img="comida.png" 
-            description="salad whit cherry tomatoes and mozzarella" 
+            <Cards img="salad.jpg" 
+            description="salad with cherry tomatoes and mozzarella" 
             price="2.34" 
             inventory="23"
             />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
-            price="1.40" 
+            <Cards img="pad thai.jpg" 
+            description="Pad thai fresh" 
+            price="3.28" 
+            inventory="26"
+            />
+            <Cards img="crispy-fried-meat-vegetables.jpg" 
+            description="Crispy fried meat vegetables" 
+            price="5.40" 
+            inventory="16"
+            />
+            <Cards img="chicken-steak.jpeg" 
+            description="Chicken steak with tomatoes and lemon" 
+            price="4.40" 
+            inventory="21"
+            />
+            <Cards img="vegeteable salad.jpeg" 
+            description="Vegeteable and fruit salad" 
+            price="2.33" 
             inventory="30"
             />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
-            price="1.40" 
-            inventory="30"
+            <Cards img="english breakfast dish.jpeg" 
+            description="English breakfast dish" 
+            price="2.44" 
+            inventory="13"
             />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
-            price="1.40" 
-            inventory="30"
+            <Cards img="grilled chicken with tomatoes.jpeg" 
+            description="Grilled chicken with tomatoes" 
+            price="4.40" 
+            inventory="22"
             />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
-            price="1.40" 
-            inventory="30"
-            />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
-            price="1.40" 
-            inventory="30"
-            />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
-            price="1.40" 
-            inventory="30"
-            />
-            <Cards img="comida.png" 
-            description="Spicy Seasoned seafood nodless" 
+            <Cards img="grilled-chicken-with-rice-mixed-with-pea-cornon.jpeg" 
+            description="Grilled chicken with rice mixed with pea cornon" 
             price="1.40" 
             inventory="30"
             />

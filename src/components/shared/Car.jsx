@@ -32,28 +32,28 @@ const Car = ( props ) => {
                 <h5>Price</h5>
               </div>
               {/*products */}
-              <div className="h-[400px] md:h-[700px] lg:h-[540px] overflow-scroll">
+              <div className="h-[400px] md:h-[700px] lg:h-[320px] overflow-scroll">
                 {/*Product */}
                 <div className="bg-[#262837] p-4 rounded-xl mb-4">
                   <div className="grid grid-cols-6 mb-4">
                     {/*product description */}
                     <div className="col-span-4 flex items-center gap-2">
                       <img
-                        src="comida.png"
-                        className="w-10 h-10 object-cover"
+                        src="pad thai.jpg"
+                        className="w-10 h-10 object-cover rounded-full"
                       />
                       <div>
-                        <h5 className="text-sm">spicy seasoned sea...</h5>
-                        <p className="text-xs text-gray-500">$1.40</p>
+                        <h5 className="text-sm">Pad thai fresh</h5>
+                        <p className="text-xs text-gray-500">$3.40</p>
                       </div>
                     </div>
                     {/*Qty */}
                     <div>
-                      <span>2</span>
+                      <span>3</span>
                     </div>
                     {/*Price */}
                     <div>
-                      <span>$2.80</span>
+                      <span>$10.20</span>
                     </div>
                   </div>
                   {/* Note */}
@@ -78,12 +78,12 @@ const Car = ( props ) => {
                     {/*product description */}
                     <div className="col-span-4 flex items-center gap-2">
                       <img
-                        src="comida.png"
-                        className="w-10 h-10 object-cover"
+                        src="chicken-steak.jpeg"
+                        className="w-10 h-10 object-cover rounded-full"
                       />
                       <div>
-                        <h5 className="text-sm">spicy seasoned sea...</h5>
-                        <p className="text-xs text-gray-500">$1.40</p>
+                        <h5 className="text-sm">Chicken steak with tomatoes and lemon</h5>
+                        <p className="text-xs text-gray-500">$4.40</p>
                       </div>
                     </div>
                     {/*Qty */}
@@ -92,7 +92,7 @@ const Car = ( props ) => {
                     </div>
                     {/*Price */}
                     <div>
-                      <span>$2.80</span>
+                      <span>$8.80</span>
                     </div>
                   </div>
                   {/* Note */}
@@ -117,21 +117,21 @@ const Car = ( props ) => {
                     {/*product description */}
                     <div className="col-span-4 flex items-center gap-2">
                       <img
-                        src="comida.png"
-                        className="w-10 h-10 object-cover"
+                        src="salad.jpg"
+                        className="w-10 h-10 object-cover rounded-full"
                       />
                       <div>
-                        <h5 className="text-sm">spicy seasoned sea...</h5>
-                        <p className="text-xs text-gray-500">$1.40</p>
+                        <h5 className="text-sm">salad with cherry tomatoes and mozzarella</h5>
+                        <p className="text-xs text-gray-500">$2.34</p>
                       </div>
                     </div>
                     {/*Qty */}
                     <div>
-                      <span>2</span>
+                      <span>1</span>
                     </div>
                     {/*Price */}
                     <div>
-                      <span>$2.80</span>
+                      <span>$2.34</span>
                     </div>
                   </div>
                   {/* Note */}
@@ -156,21 +156,21 @@ const Car = ( props ) => {
                     {/*product description */}
                     <div className="col-span-4 flex items-center gap-2">
                       <img
-                        src="comida.png"
-                        className="w-10 h-10 object-cover"
+                        src="vegeteable salad.jpeg"
+                        className="w-10 h-10 object-cover rounded-full"
                       />
                       <div>
-                        <h5 className="text-sm">spicy seasoned sea...</h5>
-                        <p className="text-xs text-gray-500">$1.40</p>
+                        <h5 className="text-sm">Vegeteable and fruit salad</h5>
+                        <p className="text-xs text-gray-500">$2.33</p>
                       </div>
                     </div>
                     {/*Qty */}
                     <div>
-                      <span>2</span>
+                      <span>1</span>
                     </div>
                     {/*Price */}
                     <div>
-                      <span>$2.80</span>
+                      <span>$2.33</span>
                     </div>
                   </div>
                   {/* Note */}
